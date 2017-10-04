@@ -3,10 +3,12 @@ module.exports = {
   resolve: {
     extensions: ['.js']
   },
-  entry: './src/index.js',
+  entry: {
+    app: ['./src/index.js']
+  }
   output: {
     path: path.resolve(__dirname,'dist/'),
-    filename: 'app.js',
+    filename: '[name].js',
   },
   devServer: {
     contentBase: path.join(__dirname, "dist"),
