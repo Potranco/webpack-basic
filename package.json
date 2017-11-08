@@ -13,7 +13,7 @@
     "babel-preset-es2015": "6.24.1"
   },
   "scripts": {
-    "build": "webpack --colors --watch",
+    "build": "webpack --colors --watch --optimize-minimize",
     "dev": "webpack-dev-server --watch --progress --colors --open"
   },
   "keywords": [

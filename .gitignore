@@ -1,2 +1,4 @@
 /node_modules*
 *.cc
+*npm-debug.log
+.DS_Store
